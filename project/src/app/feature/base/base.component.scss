@@ -4,12 +4,8 @@
     min-height: 100vh;
     // Se oculta para que no tenga doble barra lateral
     overflow-y: hidden;
-
     main {
-      padding: 2rem 4rem;
-      // por alguna razón el 100% hace que en responsive salga un scroll
-      // width: 100%;
-      max-width: 1000px;
+      padding: 3rem 4rem;
 
       @media(max-width: 1500px) {
         padding: 2rem 1rem;
