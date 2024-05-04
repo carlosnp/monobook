@@ -4,10 +4,10 @@
       "path": "./",
       "name": "🏠 Root"
     },
-    // {
-    //   "path": "./project",
-    //   "name": "✨ Storybook"
-    // },
+    {
+      "path": "./project",
+      "name": "✨ Monobook"
+    },
   ],
   "settings": {
     "typescript.preferences.quoteStyle": "single",
