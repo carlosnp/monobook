@@ -7,10 +7,6 @@ const routes: Routes = [
     path: "",
     component: InitComponent
   },
-  {
-    path: "*",
-    redirectTo: ""
-  }
 ];
 
 @NgModule({

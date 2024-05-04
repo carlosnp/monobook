@@ -1,0 +1,29 @@
+.mono-app {
+  background: transparent;
+  mat-sidenav-content {
+    min-height: 100vh;
+    // Se oculta para que no tenga doble barra lateral
+    overflow-y: hidden;
+
+    main {
+      padding: 2rem 4rem;
+      // por alguna razón el 100% hace que en responsive salga un scroll
+      // width: 100%;
+      max-width: 1000px;
+
+      @media(max-width: 1500px) {
+        padding: 2rem 1rem;
+      }
+
+      @media(max-width: 900px) {
+        margin-top: 70px;
+        padding: 1rem 1rem;
+      }
+
+      @media(max-width: 600px) {
+        margin-top: 60px;
+        padding: 5px;
+      }
+    }
+  }
+}
