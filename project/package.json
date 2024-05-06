@@ -1,11 +1,12 @@
 {
   "name": "@project/source",
-  "version": "0.0.0",
+  "version": "0.1",
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "storybook": "npx nx run storybook-host:storybook"
   },
   "private": true,
   "dependencies": {
