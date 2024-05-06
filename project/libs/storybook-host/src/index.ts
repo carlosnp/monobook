@@ -1,1 +1,2 @@
-export * from './lib/storybook-host/storybook-host.component';
+export * from './lib/components/buttons';
+export * from './lib/storybook-host';
