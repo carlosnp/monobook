@@ -22,7 +22,17 @@
         "dbaeumer.vscode-eslint",
         "mhutchie.git-graph",
         "ms-vscode-remote.remote-containers",
-        "firsttris.vscode-jest-runner"
+        "firsttris.vscode-jest-runner",
+        "nrwl.angular-console",
+        "esbenp.prettier-vscode",
+        "deniszholob.angular-files-generator",
+        "Angular.ng-template",
+        "christian-kohler.path-intellisense",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        "steoates.autoimport",
+        "EditorConfig.EditorConfig",
+        "Gruntfuggly.todo-tree"
       ]
     }
   }
