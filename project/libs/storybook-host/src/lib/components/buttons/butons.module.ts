@@ -23,4 +23,4 @@ import { ButtonBaseComponent } from './button-base';
     ButtonMainComponent
   ],
 })
-export class ButonsModule {}
+export class StoryButonsModule {}

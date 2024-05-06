@@ -1,0 +1,13 @@
+<button 
+    *ngIf="icon || title"
+    mat-stroked-button 
+    [color]="color"
+    class="main-button"
+    [disabled]="disabled"
+    [matTooltip]="tooltip"
+    [matTooltipPosition]="positionTooltip"
+    (click)="buttonClick.emit()"
+>
+    <mat-icon *ngIf="icon">{{icon}}</mat-icon>
+    <span *ngIf="title">{{title | uppercase}}</span>
+</button>
