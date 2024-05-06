@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@project/story": ["story/src/index.ts"],
-      "@project/storybook-host": ["libs/storybook-host/src/index.ts"]
+      "@storybookHost": ["libs/storybook-host/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
