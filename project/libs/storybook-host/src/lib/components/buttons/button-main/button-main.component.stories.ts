@@ -21,7 +21,7 @@ const MetaButtonMain: Meta<ComponentWithCustomControls> = {
   tags: ['autodocs'],
   argTypes: {},
   args: {
-    title: 'Button Main',
+    title: '',
     buttonClick: fn()
   },
   decorators: [
@@ -37,7 +37,7 @@ export default MetaButtonMain;
 type ButtonMain = StoryObj<ComponentWithCustomControls>;
 
 export const Primary: ButtonMain = {
-  name: 'Color primario',
+  name: 'Boton primario',
   args: {
     title: 'Primary',
     color: 'primary',
@@ -48,8 +48,85 @@ export const Primary: ButtonMain = {
   }),
 };
 
+export const PrimaryWithIcon: ButtonMain = {
+  name: 'Boton primario',
+  args: {
+    title: 'Primary',
+    icon: 'home',
+    color: 'primary',
+    tooltip: "Primary"
+  },
+  render :(args) => ({
+    props: args,
+  }),
+};
+
+export const PrimaryIcon: ButtonMain = {
+  name: 'Boton de un icono',
+  args: {
+    icon: 'home',
+    color: 'primary',
+    tooltip: "Primary"
+  },
+  render :(args) => ({
+    props: args,
+  }),
+};
+
+export const Disabled: ButtonMain = {
+  name: 'Boton deshabilitado',
+  args: {
+    title: 'Primary disabled',
+    color: 'primary',
+    tooltip: "Primary disabled",
+    disabled: true,
+  },
+  render :(args) => ({
+    props: args,
+  }),
+};
+
+export const TooltipRigth: ButtonMain = {
+  name: 'Boton con tooltip a la derecha',
+  args: {
+    title: 'Primary right',
+    color: 'primary',
+    tooltip: "Right",
+    positionTooltip: 'right'
+  },
+  render :(args) => ({
+    props: args,
+  }),
+};
+
+export const TooltipLeft: ButtonMain = {
+  name: 'Boton con tooltip a la izquierda',
+  args: {
+    title: 'Primary left',
+    color: 'primary',
+    tooltip: "Left",
+    positionTooltip: 'left'
+  },
+  render :(args) => ({
+    props: args,
+  }),
+};
+
+export const TooltipTop: ButtonMain = {
+  name: 'Boton con tooltip arriba',
+  args: {
+    title: 'Primary top',
+    color: 'primary',
+    tooltip: "Top",
+    positionTooltip: 'above'
+  },
+  render :(args) => ({
+    props: args,
+  }),
+};
+
 export const Accent: ButtonMain = {
-  name: 'Poco importante',
+  name: 'Boton secundario',
   args: {
     title: 'Accent',
     color: 'accent',
@@ -61,7 +138,7 @@ export const Accent: ButtonMain = {
 };
 
 export const Warn: ButtonMain = {
-  name: 'Peligro o alerta',
+  name: 'Boton de peligro o alerta',
   args: {
     title: 'Warn',
     color: 'warn',
